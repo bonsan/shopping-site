@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+// color
+$beige1 : #887f69;
+$beige2 : #e2ddd4;
+$light_gray: #b0b0b0;
+$dark_red: #9d1a2d;
+$base_color: #f9f8f6;
+
+// pc_menu 非表示
+#pc_menu {
+  display: none;
+}
+
+// header
+header {
+  #logo {
+    width: 100%;
+    text-align: center;
+
+    img {
+        width: 160px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+  }
+  // logo
+
+  #sp_menu {
+    cursor:pointer;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      padding: 0 6px;
+
+      img {
+        width: 30px;
+      }
+    }
+  } // #sp_menu
+
+  #pc_menu {
+    background-color: $beige2;
+    padding: 0 10px;
+
+    li {
+      display: block;
+      list-style: none;
+      border-bottom: 1px solid $beige1;
+
+      &:nth-child(4){
+        border: none;
+      }
+
+      a {
+        display: block;
+        padding: 10px 0;
+      }
+    }
+
+    .social_link {
+      display: none;
+    } // facebook,instagram 重複分を非表示
+  } // ハンバーガーメニュー
+}
+
+// sub_field
+#sub_field {
+  #search_engine {
+    h4 {
+      display: none;
+    }
+  } // search_engine
+
+  #about_data, #shop_info {
+    .sub_pict {
+      float: left;
+      width: 40%;
+      padding-right: 0;
+      box-sizing: border-box;
+    }
+
+    .sub_txt {
+      float: right;
+      width: 60%;
+      padding-top: 10px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+    }
+
+    .more_button {
+      text-align: left;
+      margin: 10px 0 0;
+    }
+  }
+}
+
+// footer
+footer {
+
+  #page_top {
+    text-align: center;
+  }
+  // #page_top
+
+}

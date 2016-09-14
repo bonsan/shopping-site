@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+// sp_menu 非表示
+#sp_menu {
+  display: none;
+}
+
+
+// header
+header {
+  padding-top: 25px !important;
+
+  #logo {
+    img {
+     width: 140px;
+    }
+  }
+
+  #pc_menu {
+    float: right;
+    padding-top: 25px;
+
+    li {
+      display: inline-block;
+      list-style: none;
+      margin-left: 10px;
+      vertical-align: bottom;
+    }
+
+    @media (max-width: 779px) {
+      padding: 0;
+    } // max-width: 779px
+  } // #pc_menu
+}
+
+// sub_field
+#sub_field {
+  #search_engine {
+    padding: 0 15px 15px;
+  } // search_engine
+}
+
+// footer
+footer {
+  #page_top {
+    text-align: right;
+  }
+
+}

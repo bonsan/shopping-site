@@ -1,0 +1,81 @@
+#pc_menu {
+		display: none;
+}
+
+header #logo {
+		width: 100%;
+		text-align: center;
+}
+
+header #logo img {
+		width: 160px;
+		margin-top: 25px;
+		margin-bottom: 15px;
+}
+
+header #sp_menu {
+		cursor: pointer;
+		text-align: center;
+}
+
+header #sp_menu li {
+		display: inline-block;
+		padding: 0 6px;
+}
+
+header #sp_menu li img {
+		width: 30px;
+}
+
+header #pc_menu {
+		background-color: #e2ddd4;
+		padding: 0 10px;
+}
+
+header #pc_menu li {
+		display: block;
+		list-style: none;
+		border-bottom: 1px solid #887f69;
+}
+
+header #pc_menu li:nth-child(4) {
+		border: none;
+}
+
+header #pc_menu li a {
+		display: block;
+		padding: 10px 0;
+}
+
+header #pc_menu .social_link {
+		display: none;
+}
+
+#sub_field #search_engine h4 {
+		display: none;
+}
+
+#sub_field #about_data .sub_pict, #sub_field #shop_info .sub_pict {
+		float: left;
+		width: 40%;
+		padding-right: 0;
+		box-sizing: border-box;
+}
+
+#sub_field #about_data .sub_txt, #sub_field #shop_info .sub_txt {
+		float: right;
+		width: 60%;
+		padding-top: 10px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+}
+
+#sub_field #about_data .more_button, #sub_field #shop_info .more_button {
+		text-align: left;
+		margin: 10px 0 0;
+}
+
+footer #page_top {
+		text-align: center;
+}

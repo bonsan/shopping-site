@@ -1,0 +1,37 @@
+#sp_menu {
+		display: none;
+}
+
+header {
+		padding-top: 25px !important;
+}
+
+header #logo img {
+		width: 140px;
+}
+
+header #pc_menu {
+		float: right;
+		padding-top: 25px;
+}
+
+header #pc_menu li {
+		display: inline-block;
+		list-style: none;
+		margin-left: 10px;
+		vertical-align: bottom;
+}
+
+@media (max-width: 779px) {
+		header #pc_menu {
+				padding: 0;
+		}
+}
+
+#sub_field #search_engine {
+		padding: 0 15px 15px;
+}
+
+footer #page_top {
+		text-align: right;
+}

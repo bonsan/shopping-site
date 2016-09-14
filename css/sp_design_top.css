@@ -1,0 +1,52 @@
+.item_list li {
+		width: 50%;
+}
+
+#new_item_list h2 {
+		padding-bottom: 50px;
+		background: url("../images/top_sp/title_new_item.png") no-repeat 50% 50%;
+}
+
+@media screen and (-web-kit-divice-pixel-ratio: 2), (min-resolution) {
+		#new_item_list h2 {
+				background: url("../images/top_sp/title_new_item@2x.png");
+		}
+}
+
+#new_item_list h2 img {
+		display: none;
+}
+
+#popular_item_list h2 {
+		padding-bottom: 50px;
+		background: url("../images/top_sp/title_popular.png") no-repeat 50% 50%;
+}
+
+@media screen and (-web-kit-divice-pixel-ratio: 2), (min-resolution) {
+		#popular_item_list h2 {
+				background: url("../images/top_sp/title_popular@2x.png");
+		}
+}
+
+#popular_item_list h2 img {
+		display: none;
+}
+
+#shopping_guide h2 {
+		padding-bottom: 50px;
+		background: url("../images/top_sp/title_guide.png") no-repeat 50% 50%;
+}
+
+@media screen and (-web-kit-divice-pixel-ratio: 2), (min-resolution) {
+		#shopping_guide h2 {
+				background: url("../images/top_sp/title_guide@2x.png");
+		}
+}
+
+#shopping_guide h2 img {
+		display: none;
+}
+
+#shopping_guide .guide_box {
+		width: 100%;
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+// item_list
+.item_list{
+	li {
+		width: 50%;
+	}
+}
+
+// category_list
+#category_item_list {
+	h2 {
+		.category_li_pc {
+			display: none;
+		}
+
+		.category_li_sp {
+			display: inline;
+			padding: 10px 0 !important;
+		}
+	}
+}
+
+// watch_item_list
+#watch_item_list {
+	h2 {
+		padding-bottom: 50px;
+		background: url("../images/list/title_recent_pro.png") no-repeat 50% 50%;
+
+		@media screen and (-web-kit-divice-pixel-ratio:2),(min-resolution) {
+		background: url("../images/list/title_recent_pro@2x.png");
+		}
+
+		img {
+			display: none;
+		}
+	}
+}
+
+// product_box
+#product_box {
+	padding: 15px;
+
+	#product_name {
+		padding: 0 0 10px 0 !important;
+
+		#product_id {
+			display: block !important;
+			float: none !important;
+			padding-top: 3px;
+		} // product_id
+	} // product_name
+
+	#product_pict {
+		padding-bottom: 10px !important;
+		#main_view {
+			margin-bottom: 10px;
+		}
+	} // product_pict
+
+	#pict_list {
+		display: flex;
+		display: -webkit-flex;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+
+		li {
+			width: 20%;
+
+			img {
+				border: 2px solid #fff;
+				margin-left: -6px;
+			}
+		}
+	} // pict_list
+
+	#cart_box{
+		#form_wrapper{
+			width: 100%;
+		}
+
+		#cart_button {
+			width: 225px;
+			margin: 0 auto;
+			padding: 15px;
+		}
+	} // cart_box
+} // product_box
+
+// shopping_guide
+#shopping_guide {
+	h2 {
+		padding-bottom: 50px;
+		background: url("../images/top_sp/title_guide.png") no-repeat 50% 50%;
+
+		@media screen and (-web-kit-divice-pixel-ratio:2),(min-resolution) {
+			background: url("../images/top_sp/title_guide@2x.png");
+		}
+
+		img {
+			display: none;
+		}
+	}
+
+	.guide_box {
+		width: 100%;
+	}
+}

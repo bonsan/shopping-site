@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+// item_list
+.item_list{
+	li {
+		width: 50%;
+	}
+}
+
+// new_item_list
+#new_item_list {
+	h2 {
+		padding-bottom: 50px;
+		background: url("../images/top_sp/title_new_item.png") no-repeat 50% 50%;
+
+		@media screen and (-web-kit-divice-pixel-ratio:2),(min-resolution) {
+		background: url("../images/top_sp/title_new_item@2x.png");
+		}
+
+		img {
+			display: none;
+		}
+	}
+}
+
+// popular_item_list
+#popular_item_list {
+	h2 {
+		padding-bottom: 50px;
+		background: url("../images/top_sp/title_popular.png") no-repeat 50% 50%;
+
+		@media screen and (-web-kit-divice-pixel-ratio:2),(min-resolution) {
+		background: url("../images/top_sp/title_popular@2x.png");
+		}
+
+		img {
+			display: none;
+		}
+	}
+}
+
+// shopping_guide
+#shopping_guide {
+	h2 {
+		padding-bottom: 50px;
+		background: url("../images/top_sp/title_guide.png") no-repeat 50% 50%;
+
+		@media screen and (-web-kit-divice-pixel-ratio:2),(min-resolution) {
+		background: url("../images/top_sp/title_guide@2x.png");
+		}
+
+		img {
+			display: none;
+		}
+	}
+
+	.guide_box {
+		width: 100%;
+	}
+}
